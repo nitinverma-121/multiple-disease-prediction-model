@@ -3,14 +3,14 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading the saved models
-dia_model= pickle.load(open('D:/Users/NITIN VERMA/Desktop/Code for basics ML/New Project/Diabetes/dia_model.pkl', 'rb'))
-dia_scaler= pickle.load(open('D:/Users/NITIN VERMA/Desktop/Code for basics ML/New Project/Diabetes/dia_scaler.pkl', 'rb'))
+dia_model= pickle.load(open('Diabetes/dia_model.pkl', 'rb'))
+dia_scaler= pickle.load(open('Diabetes/dia_scaler.pkl', 'rb'))
 
 
-par_model= pickle.load(open('D:/Users/NITIN VERMA/Desktop/Code for basics ML/New Project/parkinson disease/par_model.pkl', 'rb'))
-par_scaler= pickle.load(open('D:/Users/NITIN VERMA/Desktop/Code for basics ML/New Project/parkinson disease/par_scaler.pkl', 'rb'))
+par_model= pickle.load(open('parkinson disease/par_model.pkl', 'rb'))
+par_scaler= pickle.load(open('parkinson disease/par_scaler.pkl', 'rb'))
 
-heart_model= pickle.load(open('D:/Users/NITIN VERMA/Desktop/Code for basics ML/New Project/Heart disease/heart_model.pkl', 'rb'))
+heart_model= pickle.load(open('Heart disease/heart_model.pkl', 'rb'))
 
 
 # sidebar for navigation
